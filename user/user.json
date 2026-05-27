@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Rocky Doe",
+  "email": "rocky.rock@example.com",
+  "age": 29,
+  "isActive": true,
+  "roles": ["admin", "moderator"],
+  "tokens": "3skd43i"
+}
