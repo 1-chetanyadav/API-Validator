@@ -5,5 +5,6 @@
   "age": 29,
   "isActive": true,
   "roles": ["admin", "moderator"],
-  "tokens": "3skd43i"
+  "permissions": ["modify_product", "delete_product", "view_product"],
+  "tokens": "abc123"
 }
