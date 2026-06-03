@@ -1,18 +1,12 @@
 import sys
 from user.data_loader import load_user_data
-
 from validators.auth_validator import validate_authorization, validate_authentication
-
 from test_case.test_permission import build_batch_response
-
 from response.response import build_response
 
-
 def main():
-
     data = load_user_data()
     auth_response = validate_authentication(data)
-    
     # print(f"data: {data}")
     
     if auth_response != 200:
